@@ -15,7 +15,7 @@ km.set({'n', 't'}, '<C-l>', '<CMD>NavigatorRight<CR>')
 km.set({'n', 't'}, '<C-k>', '<CMD>NavigatorUp<CR>')
 km.set({'n', 't'}, '<C-j>', '<CMD>NavigatorDown<CR>')
 km.set('n', '<CR>', 'o<ESC>^')
-km.set('n', 't', '<cmd>Telescope find_files<cr>')
+km.set('n', 't', '<cmd>Telescope oldfiles<cr>')
 
 -- -------visual mode---------
 km.set("x", "m", ":m '>+1<CR>gv=gv")

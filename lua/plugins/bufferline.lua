@@ -9,5 +9,4 @@ return {
     { "<leader>h", "<cmd>BufferLineCloseLeft<cr>", desc = "Delete Left Buffer"},
     { "<leader>l", "<cmd>BufferLineCloseRight<cr>", desc = "Delete Right Buffer"},
   },
-
 }

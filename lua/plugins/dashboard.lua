@@ -9,9 +9,6 @@ return {
           '',
           '',
           '',
-          '',
-          '',
-          '',
           ' ███╗   ██╗ ███████╗ ██████╗  ██╗   ██╗ ██╗ ███╗   ███╗',
           ' ████╗  ██║ ██╔════╝██╔═══██╗ ██║   ██║ ██║ ████╗ ████║',
           ' ██╔██╗ ██║ █████╗  ██║   ██║ ██║   ██║ ██║ ██╔████╔██║',
@@ -24,6 +21,14 @@ return {
         },
         center = {
           {
+            icon = '󰝒   ',
+            icon_hl = 'String',
+            desc = 'New File',
+            key = 'o',
+            key_format = ' [%s]',
+            action = 'lua vim.cmd("e " .. vim.fn.input("New File Name: "))',
+          },
+          {
             icon = '   ',
             icon_hl = 'String',
             desc = 'Recent File',
@@ -32,7 +37,7 @@ return {
             action = 'Telescope oldfiles'
           },
           {
-            icon = '󰷋   ',
+            icon = '󰱼   ',
             icon_hl = 'String',
             desc = 'Find File           ',
             key = 'f',
@@ -40,12 +45,12 @@ return {
             action = 'Telescope find_files'
           },
           {
-            icon = '   ',
+            icon = '󱂬   ',
             icon_hl = 'String',
-            desc = 'Find Dotfiles',
-            key = 'd',
+            desc = 'Lazy Profile',
+            key = 'a',
             key_format = ' [%s]',
-            action = 'Telescope dotfiles'
+            action = 'Lazy'
           },
           {
             icon = '   ',
@@ -54,7 +59,7 @@ return {
             key = 'q',
             key_format = ' [%s]',
             action = 'q'
-          }
+          },
         },
       }
     }
