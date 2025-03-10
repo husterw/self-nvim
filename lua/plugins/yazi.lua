@@ -15,20 +15,23 @@ return ---@type LazySpec
       "<cmd>Yazi cwd<cr>",
       desc = "Open the file manager in nvim's working directory" ,
     },
-    {
-      -- NOTE: this requires a version of yazi that includes
-      -- https://github.com/sxyazi/yazi/pull/1305 from 2024-07-18
-      '<c-up>',
-      "<cmd>Yazi toggle<cr>",
-      desc = "Resume the last yazi session",
-    },
+    -- {
+    --   -- NOTE: this requires a version of yazi that includes
+    --   -- https://github.com/sxyazi/yazi/pull/1305 from 2024-07-18
+    --   '<c-up>',
+    --   "<cmd>Yazi toggle<cr>",
+    --   desc = "Resume the last yazi session",
+    -- },
   },
   ---@type YaziConfig
   opts = {
-    -- if you want to open yazi instead of netrw, see below for more info
-    open_for_directories = false,
+    floating_window_scaling_factor = 1,
+    yazi_floating_window_winblend = 20,
     keymaps = {
       show_help = '<f1>',
+      open_file_in_vertical_split = '<c-e>',
+      open_file_in_horizontal_split = '<c-o>',
     },
+    yazi_floating_window_border = 'double',
   },
 }
