@@ -45,6 +45,14 @@ return {
             action = 'Telescope find_files'
           },
           {
+            icon = '󰇥   ',
+            icon_hl = 'String',
+            desc = 'Open Yazi           ',
+            key = 'y',
+            key_format = ' [%s]',
+            action = 'Yazi'
+          },
+          {
             icon = '󱂬   ',
             icon_hl = 'String',
             desc = 'Lazy Profile',

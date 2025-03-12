@@ -8,9 +8,10 @@
 - [flash](https://github.com/folke/flash.nvim)
 - [lualine](https://github.com/nvim-lualine/lualine.nvim)
 - [navigator](https://github.com/numToStr/Navigator.nvim)
-- [neo-tree](https://github.com/nvim-neo-tree/neo-tree.nvim)
 - [surround](https://github.com/kylechui/nvim-surround)
 - [telescope](https://github.com/nvim-telescope/telescope.nvim)
 - [yazi](https://github.com/mikavilpas/yazi.nvim)
+- [transparent](https://github.com/xiyaowong/transparent.nvim)
+- [vim-indent-objects](https://github.com/michaeljsmith/vim-indent-object)
 ## nvim configuration
 - [配置文件](https://github.com/husterw/self-nvim-configuration/tree/main/lua/config)
