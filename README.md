@@ -7,7 +7,6 @@
 - [dashboard](https://github.com/nvimdev/dashboard-nvim)
 - [flash](https://github.com/folke/flash.nvim)
 - [lualine](https://github.com/nvim-lualine/lualine.nvim)
-- [navigator](https://github.com/numToStr/Navigator.nvim)
 - [surround](https://github.com/kylechui/nvim-surround)
 - [telescope](https://github.com/nvim-telescope/telescope.nvim)
 - [yazi](https://github.com/mikavilpas/yazi.nvim)

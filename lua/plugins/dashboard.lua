@@ -56,7 +56,7 @@ return {
             icon = '󱂬   ',
             icon_hl = 'String',
             desc = 'Lazy Profile',
-            key = 'a',
+            key = 'l',
             key_format = ' [%s]',
             action = 'Lazy'
           },
