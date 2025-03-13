@@ -4,7 +4,7 @@ return ---@type LazySpec
   event = "VeryLazy",
   ---@type YaziConfig
   opts = {
-    floating_window_scaling_factor = 0.8,
+    floating_window_scaling_factor = 0.5,
     yazi_floating_window_winblend = 20,
     keymaps = {
       show_help = '<f1>',
